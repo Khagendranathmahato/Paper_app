@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+     >
+
+    <TextView
+        android:id="@+id/tvyourmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="43dp"
+        android:text="Your Marks ="
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RatingBar
+        android:id="@+id/rbrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvyourmarks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:numStars="5"
+        android:rating="2.5"
+        android:stepSize="1.0" />
+
+    <TextView
+        android:id="@+id/tvyourturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvyourmarks"
+        android:layout_below="@+id/tvyourmarks"
+        android:layout_marginTop="46dp"
+        android:text="Now your turn "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/brate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rbrating"
+        android:layout_below="@+id/rbrating"
+        android:layout_marginTop="20dp"
+        android:text="Rate" />
+
+    <TextView
+        android:id="@+id/tvmarksgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvyourmarks"
+        android:layout_alignBottom="@+id/tvyourmarks"
+        android:layout_toRightOf="@+id/tvyourmarks"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

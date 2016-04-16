@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"  >
+
+    <TextView
+        android:id="@+id/tvinstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Write true/false." />
+
+    <EditText
+        android:id="@+id/etanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvquestion4"
+        android:layout_below="@+id/tvquestion4"
+        android:layout_marginTop="33dp"
+        android:ems="10" 
+        android:hint="true/false" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvquestion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvinstruction"
+        android:layout_below="@+id/tvinstruction"
+        android:layout_marginTop="22dp"
+        android:text="Adolf Hitler was born in Germany." />
+
+    <Button
+        android:id="@+id/bnext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etanswer"
+        android:layout_below="@+id/etanswer"
+        android:layout_marginTop="26dp"
+        android:text="Next" />
+
+</RelativeLayout>

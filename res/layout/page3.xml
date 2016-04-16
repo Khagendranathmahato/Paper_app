@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1" >
+
+    <TextView
+        android:id="@+id/tvquestion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="20dp"
+        android:text="Who killed Julius Caesar?" />
+
+    <Button
+        android:id="@+id/bnext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvquestion3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:layout_marginLeft="14dp"
+        android:text="Next" />
+
+    <CheckBox
+        android:id="@+id/cboption4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvquestion3"
+        android:layout_centerVertical="true"
+        android:text="60 conspirators " />
+
+    <CheckBox
+        android:id="@+id/cboption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cboption3"
+        android:layout_alignLeft="@+id/cboption3"
+        android:layout_marginBottom="14dp"
+        android:text="Dinosaurs" />
+
+    <CheckBox
+        android:id="@+id/cboption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cboption2"
+        android:layout_alignLeft="@+id/cboption2"
+        android:layout_marginBottom="22dp"
+        android:text="Brutus" />
+
+    <CheckBox
+        android:id="@+id/cboption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cboption4"
+        android:layout_alignLeft="@+id/cboption4"
+        android:layout_marginBottom="19dp"
+        android:text="Osama Bin Laden" />
+
+</RelativeLayout>
